@@ -16,6 +16,8 @@ document.addEventListener('DOMContentLoaded', function() {
             postTitle.textContent = post.title;
             postContent.textContent = post.content;
             postAuthor.textContent = `- ${post.author}`;
+           
+
         } else {
             postTitle.textContent = 'Post not found';
             postContent.textContent = '';
