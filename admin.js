@@ -38,6 +38,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const title = document.getElementById('title').value;
         const content = document.getElementById('content').value;
         const author = document.getElementById('author').value;
+        
+    
 
         let posts = localStorage.getItem('posts');
         if (posts) {

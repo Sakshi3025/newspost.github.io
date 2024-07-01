@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const title = document.getElementById('title').value;
         const content = document.getElementById('content').value;
         const author = document.getElementById('author').value;
-    
+        
         const post = {
             id: new Date().getTime(), // Unique identifier for the post
             title: title,
